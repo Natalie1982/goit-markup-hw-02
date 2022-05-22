@@ -9,7 +9,6 @@
 }
 body {
   font-family: Roboto, sans-serif;
-  background: #e5e5e5;
 }
 
 ul {
@@ -30,7 +29,7 @@ ul {
   clip-path: inset(50%);
   margin: -1px;
 }
-/* логотип */
+/* ----------------------логотип---------------------- */
 .logo {
   font-family: ‘Raleway’, sans-serif;
   font-weight: 700;
@@ -47,7 +46,7 @@ ul {
   background: #ffffff;
 }
 
-/* меню сторінки */
+/* ------------------------------меню сторінки ------------------*/
 .site-nav .link {
   text-decoration: none;
   font-weight: 500;
@@ -79,7 +78,7 @@ ul {
 .service-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36x;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -90,9 +89,6 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--main-tittle-text-color);
   background: #2196f3;
@@ -114,7 +110,6 @@ ul {
   color: var(--tittle-text-color);
 }
 .advantage-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -126,18 +121,16 @@ ul {
 .work-title {
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--tittle-text-color);
 }
-/*-------------------Команда-team------------------ */
+/*-------------------Наша команда-team------------------ */
 .team {
   background: #f5f4fa;
 }
 .team-top-title {
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--tittle-text-color);
 }
@@ -148,19 +141,29 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--tittle-text-color);
-  background: #ffffff;
 }
 .team-text {
-  font-size: 16px;
-  line-height: 1.19x;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  background: #ffffff;
 }
 /*----------------------footer--------------------- */
 .footer {
   background: #2f303a;
+}
+/* логотип-футер */
+.logo-footer {
+  font-family: ‘Raleway’, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.logo-accent-footer {
+  color: #ffffff;
 }
 .footer-address {
   font-style: normal;
@@ -171,8 +174,6 @@ ul {
   color: var(--main-tittle-text-color);
 }
 .footer-contact {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -189,9 +190,10 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--tittle-text-color);
+  background: #f5f4fa;
+  border: none;
   cursor: pointer;
 }
 .gallery-btn:hover,
@@ -203,14 +205,12 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
-  text-decoration: none;
-  background: #ffffff;
 }
 .gallery-text {
-  font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+}
+.gallery-list .gallary-link {
   text-decoration: none;
-  background: #ffffff;
 }
